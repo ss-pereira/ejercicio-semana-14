@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Importante incluir esta meta etiqueta para que el diseño se adapte lo mejor posible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo Diseño Responsivo</title>
+    <link rel="stylesheet" href="css/style.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lorem ipsum</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Dolor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sit</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"> Amet</a> 
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="opcionesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Opciones
+              </a>
+              <div class="dropdown-menu" aria-labelledby="opcionesDropdown">
+                  <a class="dropdown-item" href="#">Opción 1</a>
+                  <a class="dropdown-item" href="#">Opción 2</a>
+                  <a class="dropdown-item" href="#">Opción 3</a>
+              </div>
+          </li>
+          
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <h1 class="text text-center">Lorem ipsum</h1>
+
+    <section
+    id="carouselExampleAutoplaying"
+    class="carousel slide text-center mb-5"
+    data-bs-ride="carousel"
+  >
+    <article class="carousel-inner">
+      <div class="carousel-item active">
+        <h4>Carrusel no funciona</h4>
+      </div>
+      <div class="carousel-item">
+        <h4>Ahora si</h4>
+      </div>
+      <div class="carousel-item">
+        <h4>Ahora no</h4>
+      </div>
+    </article>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next"
+    ></button>
+  </section>
+
+
+
+
+    <div class="grid-container">
+      <div class="d-grid gap-2 col-6 mx-auto d-none d-md-block">
+        <button class="btn btn-light"><u>Opcion 1</u></button>
+        <button class="btn btn-light"><u>Opcion 2</u></button>
+        <button class="btn btn-light"><u>Opcion 3</u></button>
+        <button class="btn btn-light"><u>Opcion 4</u></button>
+      </div>
+      
+      
+      <div class="flex-container">
+        <!-- El contenido de aquí se agrega mediante JS -->
+
+        
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
